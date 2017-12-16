@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Blog</title>
+  </head>
+  <body>
+    <h1> Blog</h1>
+
+
+    {% for post in posts %}
+      <p>{{ post.content }}</p>
+
+      <i>{{ post.author }}</i>
+    {% endfor %}
+  </body>
+</html>

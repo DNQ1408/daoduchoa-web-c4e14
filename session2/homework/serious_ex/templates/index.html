@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Web Project</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+      <p>ảnh</p>
+    <h2>Lựa chọn (thuê cày/cày thuê)</h2>
+    <h2> Danh sách game</h2>
+      {% for game in game_list %}
+      <h3>Game name: {{ game.game_name }}</h3>
+      <h3>Game info: {{ game.game_info }}</h3>
+      <h3>Number of accounts existed: {{ game.num_account}}</h3>
+      {% endfor %}
+
+        <h4> Danh sách tài khoản</h4>
+        {% for customer in customer_list %}
+        <p>Customer: {{customer.name}} </p>
+        <p>Occupied: {{customer.occupied }}</p>
+        <p>Favorite Position: {{ customer.fav_lane }}</p>
+        <p>Credit: {{ customer.credit }}</p>
+        {% endfor %}
+    </body>
+</html>

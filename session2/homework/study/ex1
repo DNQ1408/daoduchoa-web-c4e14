@@ -1,0 +1,2 @@
+There's no duplicate ids in the record because id means identification and it should be only 1 id for each record.
+As well as repository's URL, it help us CRUD these record

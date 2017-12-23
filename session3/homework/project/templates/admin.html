@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Web Project</title>
+  </head>
+  <body>
+    <h1>Game</h1>
+      <table border='1px'>
+        <thead>
+          <th>Name</th>
+          <th>Information</th>
+          <th>Number of account</th>
+          <th>Rating(1-5)</th>
+          <th>Setting</th>
+        </thead>
+        <tbody>
+          {% for game in games %}
+          <tr>
+            <td>{{ game.name }}</td>
+            <td>{{ game.info }}</td>
+            <td>{{ game.num_account }}</td>
+            <td>{{ game.rating }}</td>
+            <td><a href="{{ url_for('info',game_id= game.id) }}"style="text-decoration:none">Info</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+          <p></p>
+    <h1>Service</h1>
+      <table border='1px'>
+        <thead>
+          <th>Name</th>
+          <th>Available</th>
+          <th>Favourite position</th>
+          <th>Credit(1-5)</th>
+          <th>Setting</th>
+        </thead>
+        <tbody>
+          {% for service in services %}
+            <tr>
+              <td>{{ service.name }}</td>
+              <td> {% if service.occupied == True %}
+                No
+                  {% else %}
+                Yes
+                {% endif %}
+              </td>
+
+              <td>{{ service.fav_lane }}</td>
+              <td>{{ service.credit }}</td>
+              <td> <a href="#"style="text-decoration:none">Fix</a>
+                  <a href="{{ url_for('delete',service_id=service.id) }}"style="text-decoration:none">Del</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+    </body>
+</html>

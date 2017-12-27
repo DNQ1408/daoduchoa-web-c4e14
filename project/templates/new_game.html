@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Game</title>
+  </head>
+  <body>
+    <form  method="post" target="#">
+      <label for="">Name</label>
+      <input type="text" name="name" value="">
+      <br>
+      <label for="">Information</label>
+      <input type="text" name="info" value="">
+      <br>
+      <label for="">Number of account</label>
+      <input type="number" name="num_account" value="">
+      <br>
+      <label for="">Rating</label>
+      <input type="number" name="rating" value="">
+      <br>
+      <input type="submit" value="Creat">
+    </form>
+
+    {% for message in get_flashed_messages() %}
+      <p>{{ message }}</p>
+    {% endfor %}
+  </body>
+</html>

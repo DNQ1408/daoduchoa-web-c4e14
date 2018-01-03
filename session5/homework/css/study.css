@@ -1,0 +1,27 @@
+.horizontal-center{
+  text-align: center;
+  /* border: 1px solid #778893; */
+  border: 1px solid rgb(147, 132, 136);
+  list-style: none;
+  border-width: 1px 0;
+}
+.horizontal-center li{
+  display: inline;
+}
+.horizontal-center p{
+  display: inline-block;
+  padding: 10px;
+  color: #c00;
+}
+.big-bg{
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.small-bg{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}

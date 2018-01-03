@@ -1,0 +1,133 @@
+/* h1 {
+color: red;
+} */
+#padding-element{
+  padding: 10px 20px 10px 20px;
+}
+#margin-element{
+  margin: 20px;
+}
+#first-heading {
+  color: blue
+}
+.align-content{
+  align-content: center;
+}
+.items-center{
+  align-items:center;
+}
+.justify-content-center{
+  justify-content: center;
+  /* space-around, flex-end */
+}
+.row-wrap{
+  /* flex-flow: direction, wrap; */
+  flex-flow: row wrap;
+}
+.d-flex{
+  display:flex;
+}
+.m-10px{
+  margin: 10px;
+}
+.h-100px{
+  height:100px;
+}
+.w-100px{
+  width:100px;
+}
+.text-gray{
+  color: gray;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.text-underline{
+  text-decoration: underline; /* overline, line-through none*/
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-lowercase{
+  text-transform: lowercase;
+}
+
+.font-pacifio{
+  font-family: 'Pacifico', cursive;
+}
+.font-italic{
+  font-style: italic;
+}
+.font-bold{
+  font-weight: bold;
+}
+.font-size-40px{
+  font-size: 40px
+}
+.w-100{
+  width:100% ;
+}
+.h-500px{
+  height: 500px
+}
+.bg-gray{
+  background-color: gray;
+}
+.bg-image{
+  background-image: url("https://www.pc-spezialisten.com/media/image/a3/30/98/15-11_d_1280x1280.jpg")
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-contain{
+  background-size: contain;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.bg-fix{
+  background-attachment: fixed ; /* parallax */
+}
+.bg-red{
+  background-color:red;
+}
+.w-40{
+  width: 40%;
+}
+.h-200px{
+  height:200px;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.bg-lightgreen{
+  background-color: lightgreen;
+}
+.d-inline{
+  display:inline;
+}
+.d-block{
+  display:block;
+}
+.float-right{
+  float:right;
+}
+.border-purple{
+  border: 1px solid #CCC;
+}
+.mt-50{
+  margin-top:50px;
+}
+.mr-100{
+  margin-right: 100px;
+}
+.ml-100{
+  margin-left: 100px;
+}

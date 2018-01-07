@@ -1,0 +1,48 @@
+.font-lobster{
+  font-family: 'Lobster', cursive;
+}
+.mb-300{
+  margin-bottom: 300px;
+}
+
+.btn-girl{
+  background-image: url('image/btn-girl.jpg');
+}
+.btn-man{
+  background-image: url('image/btn-man.jpg');
+}
+.h-200{
+  height: 200px;
+}
+.bg-cover{
+  background-size: cover;
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.font-size-25px{
+  font-size: 25px;
+}
+.bg-night{
+  background-image: url('image/night.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.w-200px{
+  width: 200px;
+}
+.h-200px{
+  height: 200px !important;
+}
+.object-fit-cover{
+  object-fit: cover;
+}
+.bg-1{
+  background-color: rgb(114, 120, 117) !important;
+}
+.bg-2{
+  background-color: rgb(50, 48, 47) !important;
+}
+.bg-3{
+  background-color: rgb(13, 13, 12) !important;
+}
